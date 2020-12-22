@@ -31,6 +31,10 @@
 		status = "okay";
 	};
 
+	sdhci@700b0400 { /* SDMMC3 for carrier board SDcard solt*/
+		status = "okay";
+	};
+
 	sdhci@700b0000 { /* SDMMC1 for SD card */
 		status = "disabled";
 	};

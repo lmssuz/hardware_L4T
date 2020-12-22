@@ -181,6 +181,7 @@
 			override@1 {
 				target = <&sdhci2>;
 				_overlay_ {
+					status = "ok";
 					keep-power-in-suspend;
 					non-removable;
 				};
